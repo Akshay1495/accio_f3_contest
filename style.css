@@ -1,0 +1,93 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.timer-input-section, .active-timers-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.timer-input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.time-inputs input {
+    width: 50px;
+    padding: 10px;
+    margin: 0 5px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #4e4e4e;
+    color: #fff;
+    font-size: 1em;
+}
+
+#start-timer {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.active-timers-section h2 {
+    margin-top: 0;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4e4e4e;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.timer.ended {
+    background-color: #ffcc00;
+    color: #1a1a1a;
+}
+
+.timer .time-remaining {
+    font-size: 1.2em;
+}
+
+.timer button {
+    padding: 5px 10px;
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
